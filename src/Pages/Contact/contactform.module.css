@@ -1,0 +1,177 @@
+.contactformcontainer{
+    width: 100%;
+}
+.contactmainlogocontainer{
+    border-radius: 1.8rem;
+    text-align: left;
+    width: 100%;
+
+}
+.contactmainlogo{
+    height: 4rem;
+    color: black;
+}
+.contactworktogether{
+    width: 100%;
+}
+
+.contactwork{
+    font-weight: 500;
+    color: blue;
+}
+.contacttogether{
+    color: aqua;
+    font-weight: 500;
+
+}
+.formcontainer{
+    width: 100%;
+}
+.input{
+    width: 90%;
+    background-color: #374e52;
+    font-size: large;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem 0.7rem ;
+    margin-bottom: 1.3rem;
+}
+.input:focus{
+    background-color: hsl(206, 14%, 23%);
+    border: none;
+    outline: none;
+}
+.input::placeholder{
+    color: rgb(24, 217, 217);
+}
+
+.button{
+    width: 160px;
+    background-color: #374e52;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem 0.2rem ;
+    color: #89dfee;
+    text-shadow: 1px 1px 1px rgba(77, 190, 209,0.1);
+}
+.button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan,0 0 20px cyan;
+    outline: none;
+    background-color:#374e52;
+    color: cyan;
+}
+.contactmain{
+    height: 335px;
+}
+
+.contactwork{
+    font-size: 2.7rem;
+}
+.contacttogether{
+    font-size: 2.8rem;
+}
+
+@media screen and (min-width:750px) and (max-width:1018px) {
+    .contactmain{
+        height: 335px;
+    }
+    
+    .contactwork{
+        font-size: 2rem;
+    }
+    .contacttogether{
+        font-size: 2rem;
+    }
+    .input{
+        padding: 0.78rem;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:749px) {
+    .contactmain{
+        height: 335px;
+    }
+    
+    .contactwork{
+        font-size: 2.3rem;
+    }
+    .contacttogether{
+        font-size: 2.3rem;
+    }
+    .input{
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:413px) {
+    .contactmain{
+        height: 335px;
+        margin-bottom: 1rem;
+    }
+    
+    .contactwork{
+        font-size: 1.6rem;
+    }
+    .contacttogether{
+        font-size: 1.6rem;
+    }
+    .input{
+        padding: 0.7rem;
+    }
+.button{
+    width: 100px;
+    font-size: medium;
+}
+}
+/* @media screen and (min-width:801px) and (max-width:879px) {
+    .contactmain{
+        height: 500px;
+    }
+    
+    .contactwork{
+        font-size: 2.7rem;
+    }
+    .contacttogether{
+        display: block;
+        font-size: 2.8rem;
+    }
+    .contactworktogether{
+        margin-top: 15%;
+    }
+
+}
+@media screen and (min-width:784px) and (max-width:800px) {
+    .contactmain{
+        height: 335px;
+    }
+    
+    .contactwork{
+        font-size: 2.7rem;
+    }
+    .contacttogether{
+        font-size: 2.8rem;
+    }
+
+}
+@media screen and (min-width:565px) and (max-width:783px) {
+    .contactmain{
+        height: 500px;
+    }
+    
+    .contactwork{
+        font-size: 2.7rem;
+    }
+    .contacttogether{
+        display: block;
+        font-size: 2.8rem;
+    }
+    .contactworktogether{
+        margin-top: 15%;
+    }
+
+
+} 
+ */

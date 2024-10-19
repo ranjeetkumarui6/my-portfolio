@@ -1,0 +1,46 @@
+.aboutcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.aboutconainer{
+    padding-bottom: 3rem;
+}
+.aboute{
+    background-color: #232323eb;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    border: 1px solid lightgray;
+    width: 48%;
+}
+.title{
+    background-color: #232323eb;
+    color: rgb(30, 126, 168);
+    font-size: xx-large;
+}
+.para{
+    padding-top: 1rem;
+    word-spacing: 0.1rem;
+    letter-spacing:0.1rem;
+    text-transform: capitalize;
+    background-color: #232323eb;
+    color: rgb(155, 153, 153);
+    font-size: 1.1rem;
+    text-align: start;
+    font-family:sans-serif;
+}
+.certification{
+    border-radius: 2rem;
+    padding: 1.5rem;
+    border: 1px solid lightgray;
+    width: 48%;
+}
+.title1{
+    background-color: #232323eb;
+    color: rgb(75, 75, 240);
+}
+.para1{
+    background-color: #232323eb;
+    color: lightslategrey;
+}

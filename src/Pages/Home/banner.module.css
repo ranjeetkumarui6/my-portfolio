@@ -1,0 +1,28 @@
+.homesqure{
+    margin-top: 25px;
+    /* height:75% ; */
+    padding-bottom: 0%;
+}
+.homesqurecard{
+    background-color:#729496;
+    box-shadow: 0 0 5px black;
+    /* background:linear-gradient(to top left,#a07ee4 50%,#62b9d3 50%); */
+
+    border-radius: 30px;
+    justify-content: space-between;
+    padding: 5% 5% 0% 5%;
+    height:75% ;
+
+}
+
+.homefont1{
+    font-size: large;
+    color: rgb(166, 173, 180);
+}
+
+.homesign{
+    text-align: center;
+    justify-content: center;
+    color: lightgray;
+    width: 100%;
+}

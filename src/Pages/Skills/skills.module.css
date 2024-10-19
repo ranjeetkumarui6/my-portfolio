@@ -1,0 +1,223 @@
+.skillcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem  4rem  3rem  4rem;
+}
+.cardcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    background-color: #729496;
+    box-shadow: 0 0 5px black;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.cardcontainer1{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+  
+}
+.title{
+    color: white;
+    font-size: 1.3rem;
+}
+.skilltitle{
+    width: 100%;
+    /* background-color: #232323eb ; */
+    /* border-radius: 2rem; */
+    /* border: 1px solid lightgray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.logo1{
+    font-size: 4rem;
+    color:#d6d0d0eb;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo {
+    from{
+        transform: rotate(0deg);
+        color: #f4ececeb;
+    }
+    to{
+        transform: rotate(360deg);
+        color: #a2a2a2eb;
+
+    }
+}
+.title2{
+    display: inline-block;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: lightgray;
+    text-align: center;
+}
+.row2{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #729496;
+    box-shadow: 0 0 5px black;
+
+    border-radius: 2rem;
+    padding:2rem 1rem;
+}
+
+.softskillcontainer{
+    width: 49%;
+    text-align: center;
+    background-color: #729496;
+    box-shadow: 0 0 5px black;
+
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+.liberary{
+    text-align: center;
+    width: 49%;
+    height: auto;
+    background-color: #729496;
+    box-shadow: 0 0 5px black;
+
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.proskill{
+    font-size: 1.4rem;
+
+    color: black;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 2rem 0rem 0rem;
+    align-items: center;
+}
+.softskills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.libtitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}
+@media screen  and (max-width:800px){
+    .skillcontainer{
+        padding:  4rem 2rem 2rem 2rem;
+    }
+    .cardcontainer1{
+        gap: 0.5rem;
+        padding: 0.2rem;
+    }
+}
+@media screen and (min-width:521px) and (max-width:845px){
+    .title2{
+        padding:0 0.1rem;
+        font-size: 1.4rem;
+        color: lightgray;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:760px) {
+    .libtitle{
+        font-size: 1.2rem;
+    }
+    .row2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .liberary{
+        width: 100%;
+    }
+    .softskillcontainer{
+        width: 100%;
+        margin-bottom: 1rem;
+
+    }
+}
+@media screen and (max-width:576px) {
+    .libtitle{
+        font-size: 0.7rem;
+    }
+    .row2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .liberary{
+        width: 100%;
+    }
+    .softskillcontainer{
+        width: 100%;
+        margin-bottom: 1rem;
+
+    }
+}
+@media screen and  (max-width:520px) {
+    .title2{
+        width: 100%;
+        padding: 0.5rem 0.3rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .educationtitle{
+        margin-top: 1.5rem;
+    }
+    .logo1{
+        font-size: 2rem;
+        color:#d6d0d0eb;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        animation-name: logo;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    @keyframes logo {
+        from{
+            transform: rotate(0deg);
+            color: #f4ececeb;
+        }
+        to{
+            transform: rotate(360deg);
+            color: #a2a2a2eb;
+    
+        }
+    }
+
+     
+}

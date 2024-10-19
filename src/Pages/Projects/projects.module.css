@@ -1,0 +1,73 @@
+.projectscontainer{
+    width: 100%;
+
+    padding: 2rem  4rem  0rem  4rem;
+}
+.projecttitlecontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+    padding: 0.5rem  0rem;
+}
+.icon{
+    font-size: 4rem;
+    color:#d6d0d0eb;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo {
+    from{
+        transform: rotate(0deg);
+        color: #f4ececeb;
+    }
+    to{
+        transform: rotate(360deg);
+        color: #a2a2a2eb;
+
+    }
+}
+.title{
+    padding: 0 5rem;
+    font-size: 2rem;
+    color: lightgray;
+}
+.projectcardcontainer{
+    width: 100%;
+}
+@media screen  and (min-width:800px) and (max-width:1075px) {
+    .projectscontainer{
+        padding: 0rem 1rem 0rem 1rem;
+    }
+}
+@media screen  and (min-width:421px) and (max-width:799px) {
+    .title{
+        padding: 0 2rem;
+        font-size: 1.5rem;
+    }
+    .icon{
+        font-size: 3rem;
+    }
+    .projectscontainer{
+        padding: 0rem 0rem 0rem 0rem;
+    }
+}
+@media screen  and (min-width:0px) and (max-width:420px) {
+    .title{
+        padding: 0 1rem;
+        font-size: 1.2rem;
+    }
+    .icon{
+        font-size: 2rem;
+    }
+    .projectscontainer{
+        padding: 0rem 0rem 0rem 0rem;
+    }
+}

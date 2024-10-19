@@ -1,0 +1,53 @@
+.cirtificatecontainer{
+    width: 100%;
+    padding: 1.5rem 4rem 4rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cirtificate{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 12px black;
+    background-color: #729496;
+}
+.certification{
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+.name{
+    color: rgb(16, 5, 181);
+    font-size: 1.6rem;
+    padding-bottom: 0.5rem;
+}
+.author{
+    color: cyan;
+    font-size: 1.2rem;
+}
+.one{
+    padding-bottom: 1.4rem;
+}
+@media screen and (min-width:801px) and (max-width:853px) {
+    .cirtificatecontainer{
+        padding: 1.5rem 2.6rem 1rem 3rem;
+    }
+
+}
+@media screen and (min-width:0px) and (max-width:800px) {
+    .cirtificatecontainer{
+        padding: 0rem 2rem 2rem 2rem;
+    }
+
+    .name{
+        font-size: 1.3rem;
+    }
+    .author{
+        font-size: 0.8rem;
+    }
+    .certification{
+        font-size: 1rem;
+    }
+}

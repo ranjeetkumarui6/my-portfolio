@@ -1,0 +1,98 @@
+.iconscontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.2rem 1.7rem;
+    background-color:#2d3e41;
+    border: none;
+    box-shadow: 0 0 7px 0 lightblue;
+    border-radius: 1.2rem;
+    
+}
+.icons:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan,0 0 50px cyan;
+    border: none;
+    background-color: #374e52;
+}
+.icon{
+    font-size: 2rem;
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    width: 70%;
+}
+.title{
+    color:#25e9f7 ;
+    font-size: large;
+    text-shadow: 1px 1px 1px cyan;
+    font-family: popiens;
+}
+.para{
+    padding-top: 0.5rem;
+    font-size: large;
+    color: black;
+}
+@media screen and (min-width:750px) and (max-width:1018px) {
+    .icons{
+        padding: 1rem;
+    }
+    .icon{
+        font-size: 1.5rem;
+    }
+    .title{
+        font-size: medium;
+    }
+    .para{
+        font-size: medium;
+    }
+    
+}
+@media screen and (min-width:414px) and (max-width:749px) {
+    .icons{
+        padding: 1.4rem 1.7rem;
+    }
+    .icon{
+        font-size: 2rem;
+    }
+    .title{
+        font-size: large;
+    }
+    .para{
+        font-size: large;
+    }
+.info{
+    width: 70%;
+    margin-left: 0.5rem;
+}
+    
+}
+@media screen and (min-width:0px) and (max-width:413px) {
+    .icons{
+        padding: 0.7rem 1rem;
+    }
+    .icon{
+        font-size: 1.2rem;
+    }
+    .title{
+        font-size: 0.8rem;
+    }
+    .para{
+        font-size: 0.9rem;
+    }
+.info{
+    width: 75%;
+    margin-right: 0.2rem;
+}
+    
+}

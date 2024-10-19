@@ -1,0 +1,55 @@
+.lib{
+    text-transform: capitalize;
+    color:cyan;
+    font-size: 1.2rem;
+    transform: rotate(-25deg);
+    padding:0 0.5rem;
+    font-family: cursive;
+    background-image: linear-gradient(to right,rgb(46, 60, 255),rgb(194, 4, 169));
+    width: 25px;
+    border-radius: 0.2rem;
+
+}
+.lib:hover{
+    transform: rotate(-30deg);
+}
+.liberary{
+    width: 25%;
+    margin: 0rem 0rem 2rem 0rem;
+}
+@media screen and (min-width:760px) and (max-width:1070px) {
+    .lib{
+        text-transform: capitalize;
+        color: rgb(0, 136, 136);
+        font-size: 0.9rem;
+        transform: rotate(-25deg);
+        padding:0 0.5rem;
+        font-family: cursive;
+        background-image: linear-gradient(to right,rgb(46, 60, 255),rgb(194, 4, 169));
+        width: 17px;
+        border-radius: 0.2rem;
+    
+    }
+    .liberary{
+        width: 25%;
+        margin: 0rem 0rem 2rem 0rem;
+    }   
+}
+@media screen and (max-width:576px) {
+    .lib{
+        text-transform: capitalize;
+        color: rgb(0, 136, 136);
+        font-size: 0.5rem;
+        transform: rotate(-25deg);
+        padding:0 0.5rem;
+        font-family: cursive;
+        background-image: linear-gradient(to right,rgb(46, 60, 255),rgb(194, 4, 169));
+        width: 12px;
+        border-radius: 0.1rem;
+    
+    }
+    .liberary{
+        width: 25%;
+        margin: 0rem 0rem 2rem 0rem;
+    }   
+}

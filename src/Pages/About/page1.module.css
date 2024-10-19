@@ -1,0 +1,237 @@
+.piccontainer{
+    width: 100%;
+    padding: 4rem  4rem  0rem  4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutleft{
+    width: 30%;
+    box-shadow: 0 0 12px black;
+    background-color: #729496;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftpic{
+display: flex;
+min-width:190px;
+justify-content: center;
+align-items: center;
+}
+.myic{
+    width: 280px;
+    height: 280px;
+    border-radius: 30px 0px 30px 0px;
+    
+
+}
+.abouteright{
+    width: 100%;
+    display: flex;
+    padding: 0%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.aboutlogo{
+    width: 96%;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 12px black;
+    background-color: #729496;
+    border-radius: 2rem;
+    
+}
+.star{
+    font-size: 5rem;
+    
+    animation-name: mylogo;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes mylogo {
+    from{
+      transform: rotate(0deg);  
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.star:hover{
+    
+    animation-name: mylogo1;
+}
+@keyframes mylogo1 {
+    from{
+      transform: rotate(360deg);  
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.selfsummary{
+    color: black;
+    font-weight: 500;
+    animation-name: about;
+    animation-duration: 2s;
+    margin: 0 3rem;
+    font-size: 2.5rem;
+}
+.selfsummary:hover{
+    color: rgb(219, 167, 26);
+}
+@keyframes about {
+    0%{
+      font-size:1rem;
+    }
+    100%{
+        font-size: 2.5rem;
+    }
+}
+.maincontainer{
+    padding: 0 0.5rem 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+
+}
+.main{
+    border-radius: 2rem;
+    box-shadow: 0 0 12px black;
+    background-color: #729496;
+    margin-left: auto;
+    
+
+    width: 98%;
+}
+.mainlogocontainer{
+    border-radius: 2rem;
+    width: 100%;
+    padding: 0rem 1rem 1.5rem 1.5rem;
+    box-shadow: 0 0 5px black;
+    background-color: #729496;
+
+}
+.mainlogo{
+    height: 5rem;
+}
+.aboute{
+    padding: 0rem 1rem 1rem 1rem;
+}
+.h3{
+    color: black;
+    font-size: 2rem;
+}
+.para{
+    font-size: 1.2rem;
+    color: cyan;
+}
+ @media screen and (min-width:476px) and (max-width:800px) {
+    .piccontainer{
+        display: flex;
+        padding: 4rem 2rem 1rem 2rem;
+        flex-wrap: wrap;
+    }
+.leftpic{
+    min-width: 400px;
+}
+.aboutleft{
+    width: 100%;
+    margin: 1rem auto;
+}
+.aboutleft{
+    width: 100%;
+}
+.aboutlogo{
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 1rem;
+
+}
+.star{
+    font-size: 4rem;
+}
+.selfsummary{
+    font-size: 2rem;
+    margin:0%;
+}
+
+@keyframes about {
+    0%{
+      font-size:0.5rem;
+    }
+    100%{
+        font-size: 2rem;
+    }
+}
+.main{
+    width: 100%;
+}
+.maincontainer{
+    padding: 0%;
+}
+}
+
+@media screen and (max-width:475px) {
+    .piccontainer{
+        display: flex;
+        padding: 4rem 2rem 1rem 2rem;
+        flex-wrap: wrap;
+    }
+    .leftpic{
+        min-width: 200px;
+        min-height: 200px;
+
+    }
+    .aboutleft{
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .aboutleft{
+        width: 100%;
+    }
+    .aboutlogo{
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 1rem;
+    
+    }
+    .star{
+        font-size: 3rem;
+    }
+    .selfsummary{
+        font-size: 1rem;
+        margin:0%;
+    }
+    
+    @keyframes about {
+        0%{
+          font-size:0.5rem;
+        }
+        100%{
+            font-size: 1rem;
+        }
+    }
+    .main{
+        width: 100%;
+    }
+    .maincontainer{
+        padding: 0%;
+    }
+    .h3{
+        font-size: 1.5rem;
+    }
+    .para{
+        text-align: justify;
+    }
+}

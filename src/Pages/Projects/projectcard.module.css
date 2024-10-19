@@ -1,0 +1,102 @@
+.projectcardcontainer{
+    width: 100%;
+    /* border: 1px solid lightgray; */
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.routs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.route{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid dodgerblue;
+    align-items: center;
+    margin: 0  auto 1rem auto;
+    text-align: center;
+    width: 30%;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+ width: 100%;  
+}
+.li{
+    width: 25%;
+    height: 35px;
+    border-right: 1px solid dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li:nth-child(3){
+    border-right: none;
+}
+.anchor{
+    width: 90px;
+    color: lightblue;
+    text-shadow: 1px 1px 1px lightslategray;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+}
+.protitle{
+    display: inline-block;
+    width: 38%;
+    color: rgb(93, 185, 188);
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+.Cardcontainer{
+    display: flex;
+    margin: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen  and (min-width:725px) and (max-width:1075px) {
+.route{
+    width: 40%;
+}
+.protitle{
+    width: 30%;
+}
+}
+@media screen  and (min-width:421px) and (max-width:724px) {
+    .route{
+        width: 43%;
+    }
+    .protitle{
+        width: 28%;
+        font-size: 1rem;
+    }
+    .anchor{
+        font-size: 0.8rem;
+    }
+    }
+@media screen  and (min-width:0px) and (max-width:420px) {
+    .route{
+        width: 50%;
+    }
+    .protitle{
+        width: 30%;
+        font-size: 0.9rem;
+    }
+    .anchor{
+        font-size: 0.8rem;
+    }
+    .Cardcontainer{
+        justify-content: center;
+    }
+    .projectcardcontainer{
+        
+        text-align: center;
+    }
+}

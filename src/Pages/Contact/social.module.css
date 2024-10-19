@@ -1,0 +1,51 @@
+.contacticoncontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.5rem;
+    background-color:#2d3e41;
+    border: none;
+    box-shadow: 0 0 7px 0 lightblue;
+    border-radius: 50%;
+    
+}
+.icons:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan,0 0 50px cyan;
+    border: none;
+    background-color: #374e52;
+}
+.icon{
+    font-size: 2rem;
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:750px) and (max-width:1018px) {
+    .icons{
+        padding: 0.8rem;
+    }
+}
+@media screen and (min-width:414px) and (max-width:749px) {
+    .icons{
+        padding: 1.7rem;
+    }
+    .icon{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (min-width:0px) and (max-width:413px) {
+    .icons{
+        padding: 1rem;
+    }
+    .icon{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,62 @@
+.skill{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    border: 3px solid cyan;
+    border-left-color: rgb(27, 27, 27);
+   
+    margin:  0 auto;
+}
+.softskill{
+    width: 49%;
+    text-align: center;
+    margin:  0.4rem auto;
+}
+.container{
+
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.name{
+    text-align: center;
+    margin: 0.2rem auto;
+    color: black;
+}
+@media screen and (min-width:760px) and (max-width:1070px) {
+    .skill{
+        width: 57px;
+        height: 57px;
+    }
+    .name{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:760px) {
+    .softskill{
+        width: 50%;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .skill{
+        width: 75px;
+        height: 75px;
+    }
+}
+@media screen and (max-width:576px) {
+    .name{
+        font-size: 0.6rem;
+    }
+    .skill{
+        width: 45px;
+        height: 45px;
+    }
+}

@@ -1,0 +1,36 @@
+.icon{
+    width: 80px;
+}
+.skillcardcontainer{
+    width: 8%;
+min-width: 120px;
+border-radius: 2rem;
+height: 120px;
+margin: 0.5rem 0rem;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1rem;
+background-color:#2d3e41;
+box-shadow: 0 0 5px black,
+}
+.skillcardcontainer:hover{
+    transform: rotate(6deg);
+}
+.name{
+    font-size: 1rem;
+    text-align: center;
+}
+@media screen and  (max-width:520px) {
+    .icon{
+        width: 70px;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .skillcardcontainer{
+        min-width: 110px;
+        height: 100px;
+        margin: 0.2rem 0;
+    }
+}

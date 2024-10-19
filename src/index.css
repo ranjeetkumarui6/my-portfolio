@@ -1,0 +1,17 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: popiens;
+  color: cyan;
+  a{
+    text-decoration: none;
+}
+  
+}
+body{
+  max-height: 100%;
+  overflow-y: scroll;
+  background:#3c5357;
+
+}

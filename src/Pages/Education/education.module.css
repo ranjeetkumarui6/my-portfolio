@@ -1,0 +1,164 @@
+.educationcontainer{
+    width: 100%;
+    padding: 4rem  4rem  3rem  4rem;
+   
+}
+.educationtitle{
+    width: 100%;
+    box-shadow: 0 0 12px black;
+    background-color: #729496;
+
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.logo1{
+    font-size: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo {
+    from{
+        transform: rotate(0deg);
+        
+    }
+    to{
+        transform: rotate(360deg);
+    
+
+    }
+}
+.title2{
+    padding: 0 5rem;
+    font-size: 2.5rem;
+    color: black;
+}
+.eduexpcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.educontainer{
+    width: 49%;
+    box-shadow: 0 0 12px black;
+    background-color: #729496;
+
+    border-radius: 2rem;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.experiencecontainer{
+    width: 49%;
+    box-shadow: 0 0 12px black;
+    background-color: #729496;
+    border-radius: 2rem;
+    align-items: center;
+}
+.edu1{
+    width: 100%;
+}
+.subtitle{
+    color: rgb(22, 150, 150);
+    margin: 2rem;
+    text-shadow: 1px 1px 1px cyan;
+    font-size: x-large;
+}
+@media screen  and (max-width:800px) {
+ .educationcontainer{
+    padding: 5rem 4rem 0rem 4rem;
+ }
+}
+@media screen  and (min-width:515px) and (max-width:1008px) {
+ .eduexpcontainer{
+    display: block
+ }   
+ .educationcontainer{
+    width: 100%;
+ }
+ .experiencecontainer{
+    width: 100%;
+ }
+ .educontainer{
+    width: 100%;
+    margin-bottom: 1rem;
+
+ }
+}
+
+@media screen and (min-width:521px) and (max-width:845px){
+    .title2{
+        padding:0 0.2rem;
+        font-size: 1.5rem;
+        color: black;
+    }
+}
+@media screen and  (max-width:520px) {
+    .title2{
+        padding: 0.5rem 0.1rem;
+        font-size: 1rem;
+    }
+    .educationtitle{
+        margin-top: 1rem;
+    }
+    .logo1{
+        font-size: 2rem;
+    
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        animation-name: logo;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    @keyframes logo {
+        from{
+            transform: rotate(0deg);
+        
+        }
+        to{
+            transform: rotate(360deg);
+            
+    
+        }
+    }
+    .educationcontainer{
+        width: 100%;
+        padding: 2rem  1.5rem  1.5rem  1.5rem;
+       
+    }
+    .eduexpcontainer{
+        display: block;
+        width: 100%;
+     }   
+     .educationcontainer{
+        width: 100%;
+     }
+     .experiencecontainer{
+        width: 100%;
+        padding-bottom: 1rem;
+     }
+     .educontainer{
+        width: 100%;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    
+     }
+     .edu1{
+        width: 100%;
+     }
+     
+}

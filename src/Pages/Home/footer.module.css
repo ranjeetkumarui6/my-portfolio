@@ -1,0 +1,49 @@
+.footercontainer{
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.listcontainer{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    width: 55%;
+}
+.listitems{
+    width: 25%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.anchor{
+    width: 6rem;
+    font-size: 1rem;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    display: flex;
+    color: rgb(112, 200, 255);
+    justify-content: center;
+    text-align: center;
+}
+.anchor:hover{
+    color: white;
+}
+.copy{
+    text-align: center;
+    color: rgb(94, 248, 168);
+    padding-top: 1rem;
+}
+@media screen and (min-width:0px) and (max-width:564px) {
+    .listcontainer{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .anchor{
+        font-size: small;
+    }
+}

@@ -1,0 +1,254 @@
+.card{
+    width: 23%;
+    min-width: 210px;
+    box-shadow: 0 0 12px black;
+    background-color: #729496;
+    border:none;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.2rem;
+    margin-bottom: 1.5rem;
+}
+.card:hover{
+    /* background-color: lightcyan; */
+    border: none;
+    /* box-shadow: 0 0 5px rgb(0, 166, 255),
+    0 0 7px rgb(0, 166, 255), 0 0 25px rgb(0, 166, 255); */
+}
+.propic{
+    width: 80%;
+    height: 180px;
+    cursor: pointer;
+}
+.toggle{
+    background-color: #a3d4d7;
+    height: 0px;
+    overflow: hidden;
+    border-radius: 1rem;
+    width: 16%;
+
+    transition: height;
+    position: absolute;
+    text-align: center;
+    transition-duration: 2s;
+}
+.cardtoggle{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: auto;
+    /* padding-top: 25%; */
+    padding: 15% 2% 1% 2%;
+
+}
+.appname{
+    color: black;
+    width: 100%;
+}
+.lang{
+    color: rgb(5, 109, 121);
+    text-shadow: 1px 1px 1px cyan;
+    width: 99%;
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.bgcolorpic:hover > .toggle{
+    height: 184px;
+}
+.bgcolorpic{
+    width: 90%;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0%;
+    border-radius: 1rem;
+
+}
+
+.name{
+    color: rgb(76, 76, 220);
+    text-shadow: 1px 1px 0px rgb(139, 193, 190);
+    text-align: center;
+}
+@media screen  and (min-width:818px) and (max-width:1075px) {
+    .card{
+        min-width: 170px;
+    }
+    .bgcolorpic{
+        width: 90%;
+    }
+
+    .toggle{
+        width: 17%;
+    }
+    .propic{
+        width: 80%;
+        height: 130px;
+    }
+.bgcolorpic:hover > .toggle{
+    height: 133px;
+    }
+    .appname{
+        font-size: small;
+    }
+    .lang{
+        
+        font-size: 0.5rem;
+    }
+    .cardtoggle{
+    padding: 15% 1% 1% 1%;
+
+    }
+}
+@media screen  and (min-width:725px) and (max-width:817px) {
+    .card{
+        min-width: 170px;
+    }
+    .bgcolorpic{
+        width: 90%;
+    }
+
+    .toggle{
+        width: 130px;
+    }
+    .propic{
+        width: 80%;
+        height: 130px;
+    }
+.bgcolorpic:hover > .toggle{
+    height: 133px;
+    }
+    .appname{
+        font-size: small;
+    }
+    .lang{
+        
+        font-size: 0.5rem;
+    }
+    .cardtoggle{
+    padding: 15% 1% 1% 1%;
+
+    }
+}
+@media screen and (min-width:564px) and (max-width:724px) {
+    .card{
+        min-width: 170px;
+    }
+    .bgcolorpic{
+        width: 90%;
+    }
+
+    .toggle{
+        width: 128px;
+    }
+    .propic{
+        width: 80%;
+        height: 100px;
+    }
+.bgcolorpic:hover > .toggle{
+    height: 105px;
+    }
+    .appname{
+        font-size: medium;
+    }
+    .lang{
+        
+        font-size: 0.5rem;
+    }
+    .cardtoggle{
+    padding: 7% 1% 1% 1%;
+
+    }
+}
+@media screen and (min-width:488px) and (max-width:563px) {
+    .card{
+        min-width: 200px;
+    }
+    .bgcolorpic{
+        width: 90%;
+    }
+
+    .toggle{
+        width: 156px;
+    }
+    .propic{
+        width: 80%;
+        height: 100px;
+    }
+.bgcolorpic:hover > .toggle{
+    height: 103px;
+    }
+    .appname{
+        font-size: small;
+    }
+    .lang{
+        
+        font-size: 0.5rem;
+    }
+    .cardtoggle{
+    padding: 10% 1% 1% 1%;
+
+    }
+}
+@media screen and (min-width:382px) and (max-width:487px) {
+    .card{
+        min-width: 160px;
+    }
+    .bgcolorpic{
+        width: 90%;
+    }
+
+    .toggle{
+        width: 115px
+    }
+    .propic{
+        width: 80%;
+        height: 100px;
+    }
+.bgcolorpic:hover > .toggle{
+    height: 105px;
+    }
+    .appname{
+        font-size: small;
+    }
+    .lang{
+        
+        font-size: 0.5rem;
+    }
+    .cardtoggle{
+    padding: 10% 1% 1% 1%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:381px) {
+    .card{
+        min-width: 250px;
+    }
+    .bgcolorpic{
+        width: 90%;
+    }
+
+    .toggle{
+        width: 200px
+    }
+    .propic{
+        width: 80%;
+        height: 100px;
+    }
+.bgcolorpic:hover > .toggle{
+    height: 105px;
+    }
+    .appname{
+        font-size: medium;
+    }
+    .lang{
+        
+        font-size: 0.8rem;
+    }
+    .cardtoggle{
+    padding: 5% 1% 1% 1%;
+    }
+}

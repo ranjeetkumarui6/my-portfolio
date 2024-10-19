@@ -1,0 +1,61 @@
+.squre{
+    width: 48%;
+    padding-bottom: 2%;
+}
+.squrecard{
+    background-color:#729496;
+    box-shadow: 0 0 5px black;
+    /* background:linear-gradient(to top left,#a07ee4 50%,#62b9d3 50%); */
+  
+    border-radius: 30px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5% 5% 5% 5%;
+
+}
+.span{
+    color: black;
+    font-size: larger;
+
+}
+.spcontainer{
+    width: 95%;
+}
+.font1{
+    display: block;
+    font-size: medium;
+    color: cyan;
+}
+.credential{
+    color: black;
+
+    font-size: xx-large;
+}
+
+.sign{
+    color: lightgray;
+    border-radius: 1rem;
+    width: 100%;
+    height: 130px;
+}
+
+@media screen and (min-width:565px) and (max-width:999px) {
+.squre{
+    width: 96%;
+    padding: 0.5rem 0rem;
+}
+.credential{
+    font-size: large;
+}
+}
+@media screen and (min-width:0px) and (max-width:564px) {
+    .squre{
+        width: 92%;
+        margin: 0 auto;
+        padding: 0.5rem 0rem;
+    }
+    .credential{
+        font-size: large;
+    }
+    
+}
