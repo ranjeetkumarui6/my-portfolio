@@ -9,6 +9,7 @@
 .sidemenu{
     height: 100%;
     overflow: hidden;
+    width: 0px;
     z-index: 1;
     background-color: #729496; 
     transition: 1s ease-in-out;

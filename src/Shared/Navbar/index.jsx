@@ -18,11 +18,11 @@ const Navbar = () => {
     a++;
     if (a == 1) {
       // sidemenu.current.style.display = "none"
-      sidemenu.current.style.width = "0px"
+      sidemenu.current.style.width = "200px"
 
     } else if (a == 2) {
       // sidemenu.current.style.display = "block"
-      sidemenu.current.style.width = "200px"
+      sidemenu.current.style.width = "0px"
       a = a - 2;
     }
 
